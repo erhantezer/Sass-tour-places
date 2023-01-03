@@ -1,0 +1,29 @@
+@import './scss/reset', './scss/variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+body {
+    font-family: 'Amatic SC', cursive;
+    background-color: $backgroundColor;
+}
+
+p{
+    font-family: 'Hubballi', cursive;
+}
+.fs{
+    a{
+    position: fixed;
+    font-weight: bolder;
+    right: 0.5rem;
+    bottom: 1rem;
+    background-color: black;
+    padding: 8px;
+    border-radius: 50%;
+    color: chocolate;
+    font-family: 'Hubballi', cursive;
+    text-decoration: none;
+    }
+
+}
